@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+  <defs>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;fill:#18304a}.title{font-size:30px;font-weight:700}.subtitle{font-size:15px;fill:#6c7c90}.table{fill:#fff;stroke:#bdcbd8;stroke-width:2}.header{fill:#eaf5f0}.tablename{font-size:18px;font-weight:700}.col{font-size:14px}.key{font-size:12px;font-weight:700;fill:#16845b}.link{stroke:#73879a;stroke-width:2;fill:none}.label{font-size:12px;font-weight:700;fill:#41566d}.note{font-size:13px;fill:#697a8d}
+    </style>
+  </defs>
+  <rect width="1440" height="960" fill="#f5f8fb"/>
+  <text x="64" y="70" class="title">MR — Modelo relacional</text>
+  <text x="64" y="101" class="subtitle">Tablas, claves primarias (PK), claves foráneas (FK) y relaciones</text>
+
+  <path d="M370 302 L370 385" class="link"/>
+  <text x="381" y="349" class="label">1 : N</text>
+  <path d="M530 502 L620 502" class="link"/>
+  <text x="555" y="489" class="label">1 : N</text>
+  <path d="M1085 442 L995 442" class="link"/>
+  <text x="1018" y="429" class="label">1 : N ingreso</text>
+  <path d="M1085 580 L995 580" class="link" stroke-dasharray="7 5"/>
+  <text x="1011" y="568" class="label">0..1 : N salida</text>
+
+  <g>
+    <rect x="220" y="150" width="300" height="152" rx="10" class="table"/>
+    <path d="M230 150h280a10 10 0 0 1 10 10v39H220v-39a10 10 0 0 1 10-10z" class="header"/>
+    <text x="370" y="183" text-anchor="middle" class="tablename">TipoVehiculo</text>
+    <text x="242" y="224" class="col"><tspan class="key">PK</tspan>  id_tipo</text>
+    <text x="242" y="250" class="col">nombre_tipo  UNIQUE NOT NULL</text>
+    <text x="242" y="276" class="col">tarifa_por_hora  NOT NULL</text>
+  </g>
+  <g>
+    <rect x="220" y="385" width="310" height="172" rx="10" class="table"/>
+    <path d="M230 385h290a10 10 0 0 1 10 10v39H220v-39a10 10 0 0 1 10-10z" class="header"/>
+    <text x="375" y="418" text-anchor="middle" class="tablename">Vehiculo</text>
+    <text x="242" y="460" class="col"><tspan class="key">PK</tspan>  placa</text>
+    <text x="242" y="488" class="col"><tspan class="key">FK</tspan>  id_tipo → TipoVehiculo</text>
+    <text x="242" y="527" class="note">Cada vehículo tiene un tipo.</text>
+  </g>
+  <g>
+    <rect x="620" y="350" width="375" height="342" rx="10" class="table"/>
+    <path d="M630 350h355a10 10 0 0 1 10 10v39H620v-39a10 10 0 0 1 10-10z" class="header"/>
+    <text x="807" y="383" text-anchor="middle" class="tablename">RegistroEstancia</text>
+    <text x="644" y="425" class="col"><tspan class="key">PK</tspan>  id_registro</text>
+    <text x="644" y="451" class="col"><tspan class="key">FK</tspan>  placa → Vehiculo</text>
+    <text x="644" y="477" class="col">fecha_hora_entrada</text>
+    <text x="644" y="503" class="col">fecha_hora_salida (NULL)</text>
+    <text x="644" y="529" class="col">total_pagar</text>
+    <text x="644" y="555" class="col">estado</text>
+    <text x="644" y="581" class="col"><tspan class="key">FK</tspan>  id_usuario_entrada → Usuario</text>
+    <text x="644" y="607" class="col"><tspan class="key">FK</tspan>  id_usuario_salida → Usuario (NULL)</text>
+    <text x="644" y="659" class="note">Dos relaciones distintas con Usuario.</text>
+  </g>
+  <g>
+    <rect x="1085" y="350" width="310" height="177" rx="10" class="table"/>
+    <path d="M1095 350h290a10 10 0 0 1 10 10v39h-310v-39a10 10 0 0 1 10-10z" class="header"/>
+    <text x="1240" y="383" text-anchor="middle" class="tablename">Usuario</text>
+    <text x="1107" y="425" class="col"><tspan class="key">PK</tspan>  id_usuario</text>
+    <text x="1107" y="453" class="col">nombre</text>
+    <text x="1107" y="481" class="col">rol</text>
+    <text x="1107" y="509" class="note">Entrada requerida; salida opcional.</text>
+  </g>
+  <rect x="220" y="755" width="1175" height="112" rx="12" fill="#fff" stroke="#e0e7ed"/>
+  <text x="246" y="791" class="tablename">Relaciones del modelo</text>
+  <text x="246" y="823" class="note">TipoVehiculo 1 — N Vehiculo · Vehiculo 1 — N RegistroEstancia</text>
+  <text x="246" y="849" class="note">Usuario 1 — N RegistroEstancia (ingreso requerido) · Usuario 0..1 — N RegistroEstancia (salida opcional por estancia)</text>
+  <text x="64" y="927" class="note">Los tipos físicos SQL, tamaños, valores por defecto y motor se especifican en modelo_fisico.sql.</text>
+</svg>

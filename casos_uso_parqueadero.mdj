@@ -1,0 +1,757 @@
+{
+  "_type": "Project",
+  "_id": "casosProject001=",
+  "name": "Casos de uso - Sistema de Parqueadero",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "casosModel001=",
+      "_parent": {
+        "$ref": "casosProject001="
+      },
+      "name": "Casos de uso",
+      "ownedElements": [
+        {
+          "_type": "UMLUseCaseDiagram",
+          "_id": "casosDiagram001=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "name": "Casos de uso del parqueadero",
+          "ownedViews": [
+            {
+              "_type": "UMLActorView",
+              "_id": "casosActorView001=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosActor001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "casosActorName001=",
+                  "_parent": {
+                    "$ref": "casosActorView001="
+                  },
+                  "model": {
+                    "$ref": "casosActor001="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosActorLabel001=",
+                      "_parent": {
+                        "$ref": "casosActorName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosActorLabel002=",
+                      "_parent": {
+                        "$ref": "casosActorName001="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 126,
+                      "top": 328,
+                      "width": 110,
+                      "height": 18,
+                      "text": "Operador"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosActorLabel003=",
+                      "_parent": {
+                        "$ref": "casosActorName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13,
+                      "text": "(from Casos de uso)"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosActorLabel004=",
+                      "_parent": {
+                        "$ref": "casosActorName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 120,
+                  "top": 321,
+                  "width": 122,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "casosActorLabel001="
+                  },
+                  "nameLabel": {
+                    "$ref": "casosActorLabel002="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "casosActorLabel003="
+                  },
+                  "propertyLabel": {
+                    "$ref": "casosActorLabel004="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "casosActorAttr001=",
+                  "_parent": {
+                    "$ref": "casosActorView001="
+                  },
+                  "model": {
+                    "$ref": "casosActor001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "casosActorOp001=",
+                  "_parent": {
+                    "$ref": "casosActorView001="
+                  },
+                  "model": {
+                    "$ref": "casosActor001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLReceptionCompartmentView",
+                  "_id": "casosActorRec001=",
+                  "_parent": {
+                    "$ref": "casosActorView001="
+                  },
+                  "model": {
+                    "$ref": "casosActor001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLTemplateParameterCompartmentView",
+                  "_id": "casosActorTemplate001=",
+                  "_parent": {
+                    "$ref": "casosActorView001="
+                  },
+                  "model": {
+                    "$ref": "casosActor001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "containerChangeable": true,
+              "left": 120,
+              "top": 251,
+              "width": 122,
+              "height": 108,
+              "nameCompartment": {
+                "$ref": "casosActorName001="
+              },
+              "suppressAttributes": true,
+              "suppressOperations": true,
+              "attributeCompartment": {
+                "$ref": "casosActorAttr001="
+              },
+              "operationCompartment": {
+                "$ref": "casosActorOp001="
+              },
+              "receptionCompartment": {
+                "$ref": "casosActorRec001="
+              },
+              "templateParameterCompartment": {
+                "$ref": "casosActorTemplate001="
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "casosUseView001=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosUse001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "casosUseName001=",
+                  "_parent": {
+                    "$ref": "casosUseView001="
+                  },
+                  "model": {
+                    "$ref": "casosUse001="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosUseLabel001=",
+                      "_parent": {
+                        "$ref": "casosUseName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosUseLabel002=",
+                      "_parent": {
+                        "$ref": "casosUseName001="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 512,
+                      "top": 141,
+                      "width": 230,
+                      "height": 18,
+                      "text": "Consultar vehículos activos"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosUseLabel003=",
+                      "_parent": {
+                        "$ref": "casosUseName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosUseLabel004=",
+                      "_parent": {
+                        "$ref": "casosUseName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 505,
+                  "top": 134,
+                  "width": 244,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "casosUseLabel001="
+                  },
+                  "nameLabel": {
+                    "$ref": "casosUseLabel002="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "casosUseLabel003="
+                  },
+                  "propertyLabel": {
+                    "$ref": "casosUseLabel004="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "casosUseAttr001=",
+                  "_parent": {
+                    "$ref": "casosUseView001="
+                  },
+                  "model": {
+                    "$ref": "casosUse001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "casosUseOp001=",
+                  "_parent": {
+                    "$ref": "casosUseView001="
+                  },
+                  "model": {
+                    "$ref": "casosUse001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLReceptionCompartmentView",
+                  "_id": "casosUseRec001=",
+                  "_parent": {
+                    "$ref": "casosUseView001="
+                  },
+                  "model": {
+                    "$ref": "casosUse001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLTemplateParameterCompartmentView",
+                  "_id": "casosUseTemplate001=",
+                  "_parent": {
+                    "$ref": "casosUseView001="
+                  },
+                  "model": {
+                    "$ref": "casosUse001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLExtensionPointCompartmentView",
+                  "_id": "casosUseExt001=",
+                  "_parent": {
+                    "$ref": "casosUseView001="
+                  },
+                  "model": {
+                    "$ref": "casosUse001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "containerChangeable": true,
+              "left": 490,
+              "top": 116,
+              "width": 274,
+              "height": 56,
+              "nameCompartment": {
+                "$ref": "casosUseName001="
+              },
+              "suppressAttributes": true,
+              "suppressOperations": true,
+              "attributeCompartment": {
+                "$ref": "casosUseAttr001="
+              },
+              "operationCompartment": {
+                "$ref": "casosUseOp001="
+              },
+              "receptionCompartment": {
+                "$ref": "casosUseRec001="
+              },
+              "templateParameterCompartment": {
+                "$ref": "casosUseTemplate001="
+              },
+              "extensionPointCompartment": {
+                "$ref": "casosUseExt001="
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "casosUseView002=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosUse002="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "casosUseName002=",
+                  "_parent": {
+                    "$ref": "casosUseView002="
+                  },
+                  "model": {
+                    "$ref": "casosUse002="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosUseLabel002a=",
+                      "_parent": {
+                        "$ref": "casosUseName002="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 505,
+                      "top": 281,
+                      "width": 244,
+                      "height": 18,
+                      "text": "Registrar ingreso de vehículo"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 505,
+                  "top": 274,
+                  "width": 244,
+                  "height": 30,
+                  "nameLabel": {
+                    "$ref": "casosUseLabel002a="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "containerChangeable": true,
+              "left": 490,
+              "top": 256,
+              "width": 274,
+              "height": 56,
+              "nameCompartment": {
+                "$ref": "casosUseName002="
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "casosUseView003=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosUse003="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "casosUseName003=",
+                  "_parent": {
+                    "$ref": "casosUseView003="
+                  },
+                  "model": {
+                    "$ref": "casosUse003="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosUseLabel003a=",
+                      "_parent": {
+                        "$ref": "casosUseName003="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 505,
+                      "top": 421,
+                      "width": 244,
+                      "height": 18,
+                      "text": "Buscar y finalizar estancia activa"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 505,
+                  "top": 414,
+                  "width": 244,
+                  "height": 30,
+                  "nameLabel": {
+                    "$ref": "casosUseLabel003a="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "containerChangeable": true,
+              "left": 490,
+              "top": 396,
+              "width": 274,
+              "height": 56,
+              "nameCompartment": {
+                "$ref": "casosUseName003="
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "casosUseView004=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosUse004="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "casosUseName004=",
+                  "_parent": {
+                    "$ref": "casosUseView004="
+                  },
+                  "model": {
+                    "$ref": "casosUse004="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "casosUseLabel004a=",
+                      "_parent": {
+                        "$ref": "casosUseName004="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 505,
+                      "top": 561,
+                      "width": 244,
+                      "height": 18,
+                      "text": "Consultar tipo y tarifa del vehículo"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 505,
+                  "top": 554,
+                  "width": 244,
+                  "height": 30,
+                  "nameLabel": {
+                    "$ref": "casosUseLabel004a="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "containerChangeable": true,
+              "left": 490,
+              "top": 536,
+              "width": 274,
+              "height": 56,
+              "nameCompartment": {
+                "$ref": "casosUseName004="
+              }
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "casosAssocView001=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosAssoc001="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "casosUseView001="
+              },
+              "tail": {
+                "$ref": "casosActorView001="
+              },
+              "points": "242:284;490:144"
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "casosAssocView002=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosAssoc002="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "casosUseView002="
+              },
+              "tail": {
+                "$ref": "casosActorView001="
+              },
+              "points": "242:303;490:284"
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "casosAssocView003=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosAssoc003="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "casosUseView003="
+              },
+              "tail": {
+                "$ref": "casosActorView001="
+              },
+              "points": "242:313;490:424"
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "casosAssocView004=",
+              "_parent": {
+                "$ref": "casosDiagram001="
+              },
+              "model": {
+                "$ref": "casosAssoc004="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "casosUseView004="
+              },
+              "tail": {
+                "$ref": "casosActorView001="
+              },
+              "points": "242:331;490:564"
+            }
+          ]
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "casosActor001=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "name": "Operador"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "casosUse001=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "name": "Consultar vehículos activos"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "casosUse002=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "name": "Registrar ingreso de vehículo"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "casosUse003=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "name": "Buscar y finalizar estancia activa"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "casosUse004=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "name": "Consultar tipo y tarifa del vehículo"
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "casosAssoc001=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd001a=",
+            "_parent": {
+              "$ref": "casosAssoc001="
+            },
+            "reference": {
+              "$ref": "casosActor001="
+            }
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd001b=",
+            "_parent": {
+              "$ref": "casosAssoc001="
+            },
+            "reference": {
+              "$ref": "casosUse001="
+            }
+          }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "casosAssoc002=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd002a=",
+            "_parent": {
+              "$ref": "casosAssoc002="
+            },
+            "reference": {
+              "$ref": "casosActor001="
+            }
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd002b=",
+            "_parent": {
+              "$ref": "casosAssoc002="
+            },
+            "reference": {
+              "$ref": "casosUse002="
+            }
+          }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "casosAssoc003=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd003a=",
+            "_parent": {
+              "$ref": "casosAssoc003="
+            },
+            "reference": {
+              "$ref": "casosActor001="
+            }
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd003b=",
+            "_parent": {
+              "$ref": "casosAssoc003="
+            },
+            "reference": {
+              "$ref": "casosUse003="
+            }
+          }
+        },
+        {
+          "_type": "UMLAssociation",
+          "_id": "casosAssoc004=",
+          "_parent": {
+            "$ref": "casosModel001="
+          },
+          "end1": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd004a=",
+            "_parent": {
+              "$ref": "casosAssoc004="
+            },
+            "reference": {
+              "$ref": "casosActor001="
+            }
+          },
+          "end2": {
+            "_type": "UMLAssociationEnd",
+            "_id": "casosEnd004b=",
+            "_parent": {
+              "$ref": "casosAssoc004="
+            },
+            "reference": {
+              "$ref": "casosUse004="
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+  <defs>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;fill:#172b45}
+      .muted{fill:#75849a}.small{font-size:13px}.body{font-size:15px}.title{font-size:27px;font-weight:700}.section{font-size:18px;font-weight:700}.label{font-size:12px;font-weight:600;letter-spacing:.5px}
+    </style>
+  </defs>
+  <rect width="1440" height="960" fill="#f4f7fa"/>
+  <rect width="248" height="960" fill="#14263e"/>
+  <circle cx="39" cy="43" r="18" fill="#38bd89"/>
+  <text x="39" y="49" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">P</text>
+  <text x="68" y="41" font-size="16" font-weight="700" fill="#ffffff">PARQUEO</text>
+  <text x="68" y="59" font-size="11" fill="#9eafc2">CONTROL</text>
+  <text x="26" y="111" class="label" fill="#8092a8">MENÚ PRINCIPAL</text>
+  <rect x="16" y="128" width="216" height="46" rx="10" fill="#25405d"/>
+  <rect x="30" y="143" width="16" height="15" rx="3" fill="#38bd89"/>
+  <text x="60" y="158" class="body" font-weight="600" fill="#ffffff">Resumen</text>
+  <text x="38" y="211" class="body" fill="#b1bfd0">＋</text>
+  <text x="60" y="211" class="body" fill="#b1bfd0">Registrar ingreso</text>
+  <text x="38" y="264" class="body" fill="#b1bfd0">↗</text>
+  <text x="60" y="264" class="body" fill="#b1bfd0">Registrar salida</text>
+  <line x1="24" y1="298" x2="224" y2="298" stroke="#30435b"/>
+  <text x="26" y="329" class="label" fill="#8092a8">SISTEMA</text>
+  <text x="60" y="373" class="body" fill="#b1bfd0">⚙</text>
+  <text x="84" y="373" class="body" fill="#b1bfd0">Configuración</text>
+  <rect x="16" y="864" width="216" height="72" rx="12" fill="#1b324d"/>
+  <circle cx="47" cy="900" r="17" fill="#d9f4ea"/>
+  <text x="47" y="905" text-anchor="middle" font-size="12" font-weight="700" fill="#16845b">CP</text>
+  <text x="75" y="896" class="small" font-weight="700" fill="#ffffff">Carlos Pérez</text>
+  <text x="75" y="916" font-size="12" fill="#9eafc2">Operador</text>
+  <rect x="248" width="1192" height="76" fill="#ffffff"/>
+  <line x1="248" y1="75.5" x2="1440" y2="75.5" stroke="#e7ecf1"/>
+  <text x="282" y="47" class="body muted">Sistema de parqueadero</text>
+  <circle cx="1363" cy="38" r="18" fill="#f0f4f7"/>
+  <text x="1363" y="43" text-anchor="middle" font-size="15">?</text>
+  <circle cx="1407" cy="38" r="18" fill="#d9f4ea"/>
+  <text x="1407" y="43" text-anchor="middle" font-size="12" font-weight="700" fill="#16845b">CP</text>
+  <text x="282" y="133" class="title">Control del parqueadero</text>
+  <text x="282" y="161" class="body muted">Consulta y gestiona los vehículos que se encuentran en el parqueadero.</text>
+  <rect x="1161" y="108" width="235" height="46" rx="9" fill="#16845b"/>
+  <text x="1180" y="137" font-size="18" fill="#ffffff">＋</text>
+  <text x="1206" y="137" class="body" font-weight="700" fill="#ffffff">Registrar ingreso</text>
+  <rect x="282" y="195" width="257" height="122" rx="13" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="303" y="226" class="small muted">Vehículos activos</text>
+  <text x="303" y="273" font-size="34" font-weight="700">12</text>
+  <circle cx="501" cy="252" r="20" fill="#e7f6ef"/>
+  <text x="501" y="258" text-anchor="middle" font-size="17" fill="#16845b">●</text>
+  <text x="303" y="296" font-size="12" fill="#16845b">En el parqueadero ahora</text>
+  <rect x="557" y="195" width="257" height="122" rx="13" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="578" y="226" class="small muted">Ingresos de hoy</text>
+  <text x="578" y="273" font-size="34" font-weight="700">18</text>
+  <circle cx="776" cy="252" r="20" fill="#edf3ff"/>
+  <text x="776" y="258" text-anchor="middle" font-size="18" fill="#5279c7">↓</text>
+  <text x="578" y="296" font-size="12" fill="#75849a">Registros de entrada</text>
+  <rect x="832" y="195" width="257" height="122" rx="13" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="853" y="226" class="small muted">Salidas de hoy</text>
+  <text x="853" y="273" font-size="34" font-weight="700">6</text>
+  <circle cx="1051" cy="252" r="20" fill="#fff4e7"/>
+  <text x="1051" y="258" text-anchor="middle" font-size="18" fill="#d58b2d">↑</text>
+  <text x="853" y="296" font-size="12" fill="#75849a">Estancias finalizadas</text>
+  <rect x="1107" y="195" width="289" height="122" rx="13" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="1128" y="226" class="small muted">Tipos de vehículo</text>
+  <text x="1128" y="267" font-size="20" font-weight="700">Automóvil</text>
+  <text x="1128" y="294" class="small muted">Motocicleta</text>
+  <rect x="282" y="345" width="1114" height="554" rx="14" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="308" y="386" class="section">Vehículos en el parqueadero</text>
+  <text x="308" y="410" class="small muted">Registros con estado activo</text>
+  <rect x="1117" y="365" width="253" height="40" rx="8" fill="#ffffff" stroke="#dfe6ed"/>
+  <text x="1134" y="390" class="small muted">⌕</text>
+  <text x="1157" y="390" class="small muted">Buscar por placa...</text>
+  <rect x="308" y="434" width="1062" height="42" rx="6" fill="#f5f8fa"/>
+  <text x="326" y="461" class="label muted">PLACA</text>
+  <text x="499" y="461" class="label muted">TIPO</text>
+  <text x="688" y="461" class="label muted">HORA DE INGRESO</text>
+  <text x="910" y="461" class="label muted">OPERADOR</text>
+  <text x="1136" y="461" class="label muted">ESTADO</text>
+  <g class="body">
+    <text x="326" y="516" font-weight="700">ABC123</text><text x="499" y="516">Automóvil</text><text x="688" y="516">Hoy, 08:42 a. m.</text><text x="910" y="516">Carlos Pérez</text>
+    <rect x="1128" y="495" width="93" height="28" rx="14" fill="#e7f6ef"/><text x="1174" y="514" text-anchor="middle" font-size="12" font-weight="600" fill="#16845b">Activo</text>
+    <line x1="308" y1="538" x2="1370" y2="538" stroke="#edf0f3"/>
+    <text x="326" y="577" font-weight="700">KLM456</text><text x="499" y="577">Motocicleta</text><text x="688" y="577">Hoy, 09:15 a. m.</text><text x="910" y="577">Carlos Pérez</text>
+    <rect x="1128" y="556" width="93" height="28" rx="14" fill="#e7f6ef"/><text x="1174" y="575" text-anchor="middle" font-size="12" font-weight="600" fill="#16845b">Activo</text>
+    <line x1="308" y1="599" x2="1370" y2="599" stroke="#edf0f3"/>
+    <text x="326" y="638" font-weight="700">MNO789</text><text x="499" y="638">Automóvil</text><text x="688" y="638">Hoy, 10:03 a. m.</text><text x="910" y="638">Carlos Pérez</text>
+    <rect x="1128" y="617" width="93" height="28" rx="14" fill="#e7f6ef"/><text x="1174" y="636" text-anchor="middle" font-size="12" font-weight="600" fill="#16845b">Activo</text>
+    <line x1="308" y1="660" x2="1370" y2="660" stroke="#edf0f3"/>
+    <text x="326" y="699" font-weight="700">PQR321</text><text x="499" y="699">Motocicleta</text><text x="688" y="699">Hoy, 10:28 a. m.</text><text x="910" y="699">Carlos Pérez</text>
+    <rect x="1128" y="678" width="93" height="28" rx="14" fill="#e7f6ef"/><text x="1174" y="697" text-anchor="middle" font-size="12" font-weight="600" fill="#16845b">Activo</text>
+  </g>
+  <line x1="308" y1="721" x2="1370" y2="721" stroke="#edf0f3"/>
+  <text x="308" y="766" class="small muted">Mostrando 4 de 12 vehículos activos</text>
+  <text x="1299" y="766" class="small muted">‹  1  2  3  ›</text>
+  <text x="282" y="930" font-size="12" class="muted">Parqueo Control  ·  Datos de ejemplo para el mockup</text>
+</svg>

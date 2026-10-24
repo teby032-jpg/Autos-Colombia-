@@ -1,0 +1,781 @@
+{
+  "_type": "Project",
+  "_id": "packageProject001=",
+  "name": "Diagrama de paquetes - Parqueadero",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "packageModel001=",
+      "_parent": {
+        "$ref": "packageProject001="
+      },
+      "name": "Paquetes del sistema",
+      "ownedElements": [
+        {
+          "_type": "UMLPackageDiagram",
+          "_id": "packageDiagram001=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "Organización por capas del parqueadero",
+          "ownedViews": [
+            {
+              "_type": "UMLPackageView",
+              "_id": "packageViewPresentation=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packagePresentation="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "packageNamePresentation=",
+                  "_parent": {
+                    "$ref": "packageViewPresentation="
+                  },
+                  "model": {
+                    "$ref": "packagePresentation="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePresentationStereotype=",
+                      "_parent": {
+                        "$ref": "packageNamePresentation="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePresentationLabel=",
+                      "_parent": {
+                        "$ref": "packageNamePresentation="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 92,
+                      "top": 175,
+                      "width": 170,
+                      "height": 18,
+                      "text": "Presentacion"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePresentationNamespace=",
+                      "_parent": {
+                        "$ref": "packageNamePresentation="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePresentationProperty=",
+                      "_parent": {
+                        "$ref": "packageNamePresentation="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 85,
+                  "top": 168,
+                  "width": 184,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "packagePresentationStereotype="
+                  },
+                  "nameLabel": {
+                    "$ref": "packagePresentationLabel="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "packagePresentationNamespace="
+                  },
+                  "propertyLabel": {
+                    "$ref": "packagePresentationProperty="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 75,
+              "top": 153,
+              "width": 204,
+              "height": 150,
+              "nameCompartment": {
+                "$ref": "packageNamePresentation="
+              }
+            },
+            {
+              "_type": "UMLPackageView",
+              "_id": "packageViewApplication=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packageApplication="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "packageNameApplication=",
+                  "_parent": {
+                    "$ref": "packageViewApplication="
+                  },
+                  "model": {
+                    "$ref": "packageApplication="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageApplicationStereotype=",
+                      "_parent": {
+                        "$ref": "packageNameApplication="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageApplicationLabel=",
+                      "_parent": {
+                        "$ref": "packageNameApplication="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 342,
+                      "top": 175,
+                      "width": 170,
+                      "height": 18,
+                      "text": "Aplicacion"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageApplicationNamespace=",
+                      "_parent": {
+                        "$ref": "packageNameApplication="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageApplicationProperty=",
+                      "_parent": {
+                        "$ref": "packageNameApplication="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 335,
+                  "top": 168,
+                  "width": 184,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "packageApplicationStereotype="
+                  },
+                  "nameLabel": {
+                    "$ref": "packageApplicationLabel="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "packageApplicationNamespace="
+                  },
+                  "propertyLabel": {
+                    "$ref": "packageApplicationProperty="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 325,
+              "top": 153,
+              "width": 204,
+              "height": 150,
+              "nameCompartment": {
+                "$ref": "packageNameApplication="
+              }
+            },
+            {
+              "_type": "UMLPackageView",
+              "_id": "packageViewDomain=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packageDomain="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "packageNameDomain=",
+                  "_parent": {
+                    "$ref": "packageViewDomain="
+                  },
+                  "model": {
+                    "$ref": "packageDomain="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDomainStereotype=",
+                      "_parent": {
+                        "$ref": "packageNameDomain="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDomainLabel=",
+                      "_parent": {
+                        "$ref": "packageNameDomain="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 592,
+                      "top": 175,
+                      "width": 170,
+                      "height": 18,
+                      "text": "Dominio"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDomainNamespace=",
+                      "_parent": {
+                        "$ref": "packageNameDomain="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDomainProperty=",
+                      "_parent": {
+                        "$ref": "packageNameDomain="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 585,
+                  "top": 168,
+                  "width": 184,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "packageDomainStereotype="
+                  },
+                  "nameLabel": {
+                    "$ref": "packageDomainLabel="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "packageDomainNamespace="
+                  },
+                  "propertyLabel": {
+                    "$ref": "packageDomainProperty="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 575,
+              "top": 153,
+              "width": 204,
+              "height": 150,
+              "nameCompartment": {
+                "$ref": "packageNameDomain="
+              }
+            },
+            {
+              "_type": "UMLPackageView",
+              "_id": "packageViewPersistence=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packagePersistence="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "packageNamePersistence=",
+                  "_parent": {
+                    "$ref": "packageViewPersistence="
+                  },
+                  "model": {
+                    "$ref": "packagePersistence="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePersistenceStereotype=",
+                      "_parent": {
+                        "$ref": "packageNamePersistence="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePersistenceLabel=",
+                      "_parent": {
+                        "$ref": "packageNamePersistence="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 842,
+                      "top": 175,
+                      "width": 170,
+                      "height": 18,
+                      "text": "Persistencia"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePersistenceNamespace=",
+                      "_parent": {
+                        "$ref": "packageNamePersistence="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packagePersistenceProperty=",
+                      "_parent": {
+                        "$ref": "packageNamePersistence="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 835,
+                  "top": 168,
+                  "width": 184,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "packagePersistenceStereotype="
+                  },
+                  "nameLabel": {
+                    "$ref": "packagePersistenceLabel="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "packagePersistenceNamespace="
+                  },
+                  "propertyLabel": {
+                    "$ref": "packagePersistenceProperty="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 825,
+              "top": 153,
+              "width": 204,
+              "height": 150,
+              "nameCompartment": {
+                "$ref": "packageNamePersistence="
+              }
+            },
+            {
+              "_type": "UMLPackageView",
+              "_id": "packageViewDatabase=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packageDatabase="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "packageNameDatabase=",
+                  "_parent": {
+                    "$ref": "packageViewDatabase="
+                  },
+                  "model": {
+                    "$ref": "packageDatabase="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDatabaseStereotype=",
+                      "_parent": {
+                        "$ref": "packageNameDatabase="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDatabaseLabel=",
+                      "_parent": {
+                        "$ref": "packageNameDatabase="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 1092,
+                      "top": 175,
+                      "width": 190,
+                      "height": 18,
+                      "text": "Base de datos MySQL"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDatabaseNamespace=",
+                      "_parent": {
+                        "$ref": "packageNameDatabase="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "packageDatabaseProperty=",
+                      "_parent": {
+                        "$ref": "packageNameDatabase="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 1085,
+                  "top": 168,
+                  "width": 204,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "packageDatabaseStereotype="
+                  },
+                  "nameLabel": {
+                    "$ref": "packageDatabaseLabel="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "packageDatabaseNamespace="
+                  },
+                  "propertyLabel": {
+                    "$ref": "packageDatabaseProperty="
+                  }
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 1075,
+              "top": 153,
+              "width": 224,
+              "height": 150,
+              "nameCompartment": {
+                "$ref": "packageNameDatabase="
+              }
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "packageDependencyView1=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packageDependency1="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "packageViewApplication="
+              },
+              "tail": {
+                "$ref": "packageViewPresentation="
+              },
+              "points": "279:228;325:228"
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "packageDependencyView2=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packageDependency2="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "packageViewDomain="
+              },
+              "tail": {
+                "$ref": "packageViewApplication="
+              },
+              "points": "529:228;575:228"
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "packageDependencyView3=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packageDependency3="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "packageViewPersistence="
+              },
+              "tail": {
+                "$ref": "packageViewApplication="
+              },
+              "points": "529:254;825:254"
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "packageDependencyView4=",
+              "_parent": {
+                "$ref": "packageDiagram001="
+              },
+              "model": {
+                "$ref": "packageDependency4="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "packageViewDatabase="
+              },
+              "tail": {
+                "$ref": "packageViewPersistence="
+              },
+              "points": "1029:228;1075:228"
+            }
+          ]
+        },
+        {
+          "_type": "UMLPackage",
+          "_id": "packagePresentation=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "Presentacion",
+          "ownedElements": [
+            {
+              "_type": "UMLClass",
+              "_id": "packageScreenControl=",
+              "_parent": {
+                "$ref": "packagePresentation="
+              },
+              "name": "PantallaControl"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageScreenEntry=",
+              "_parent": {
+                "$ref": "packagePresentation="
+              },
+              "name": "FormularioIngreso"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageScreenExit=",
+              "_parent": {
+                "$ref": "packagePresentation="
+              },
+              "name": "FormularioSalida"
+            }
+          ]
+        },
+        {
+          "_type": "UMLPackage",
+          "_id": "packageApplication=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "Aplicacion",
+          "ownedElements": [
+            {
+              "_type": "UMLClass",
+              "_id": "packageUseCaseList=",
+              "_parent": {
+                "$ref": "packageApplication="
+              },
+              "name": "ConsultarVehiculosActivos"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageUseCaseEntry=",
+              "_parent": {
+                "$ref": "packageApplication="
+              },
+              "name": "RegistrarIngreso"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageUseCaseExit=",
+              "_parent": {
+                "$ref": "packageApplication="
+              },
+              "name": "RegistrarSalida"
+            }
+          ]
+        },
+        {
+          "_type": "UMLPackage",
+          "_id": "packageDomain=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "Dominio",
+          "ownedElements": [
+            {
+              "_type": "UMLClass",
+              "_id": "packageEntityType=",
+              "_parent": {
+                "$ref": "packageDomain="
+              },
+              "name": "TipoVehiculo"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageEntityVehicle=",
+              "_parent": {
+                "$ref": "packageDomain="
+              },
+              "name": "Vehiculo"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageEntityStay=",
+              "_parent": {
+                "$ref": "packageDomain="
+              },
+              "name": "RegistroEstancia"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageEntityUser=",
+              "_parent": {
+                "$ref": "packageDomain="
+              },
+              "name": "Usuario"
+            }
+          ]
+        },
+        {
+          "_type": "UMLPackage",
+          "_id": "packagePersistence=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "Persistencia",
+          "ownedElements": [
+            {
+              "_type": "UMLClass",
+              "_id": "packageRepositoryStay=",
+              "_parent": {
+                "$ref": "packagePersistence="
+              },
+              "name": "RepositorioEstancias"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageRepositoryVehicle=",
+              "_parent": {
+                "$ref": "packagePersistence="
+              },
+              "name": "RepositorioVehiculos"
+            },
+            {
+              "_type": "UMLClass",
+              "_id": "packageRepositoryUser=",
+              "_parent": {
+                "$ref": "packagePersistence="
+              },
+              "name": "RepositorioUsuarios"
+            }
+          ]
+        },
+        {
+          "_type": "UMLPackage",
+          "_id": "packageDatabase=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "Base de datos MySQL",
+          "ownedElements": [
+            {
+              "_type": "UMLClass",
+              "_id": "packageDatabaseSchema=",
+              "_parent": {
+                "$ref": "packageDatabase="
+              },
+              "name": "parqueadero_db"
+            }
+          ]
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "packageDependency1=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "usa",
+          "source": {
+            "$ref": "packagePresentation="
+          },
+          "target": {
+            "$ref": "packageApplication="
+          }
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "packageDependency2=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "gestiona",
+          "source": {
+            "$ref": "packageApplication="
+          },
+          "target": {
+            "$ref": "packageDomain="
+          }
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "packageDependency3=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "consulta y guarda",
+          "source": {
+            "$ref": "packageApplication="
+          },
+          "target": {
+            "$ref": "packagePersistence="
+          }
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "packageDependency4=",
+          "_parent": {
+            "$ref": "packageModel001="
+          },
+          "name": "lee y escribe",
+          "source": {
+            "$ref": "packagePersistence="
+          },
+          "target": {
+            "$ref": "packageDatabase="
+          }
+        }
+      ]
+    }
+  ]
+}
