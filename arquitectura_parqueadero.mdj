@@ -1,0 +1,809 @@
+{
+  "_type": "Project",
+  "_id": "parkProject001=",
+  "name": "Sistema de Parqueadero",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "parkModel001=",
+      "_parent": {
+        "$ref": "parkProject001="
+      },
+      "name": "Arquitectura del sistema",
+      "ownedElements": [
+        {
+          "_type": "UMLComponentDiagram",
+          "_id": "parkDiagram01=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "Arquitectura del sistema de parqueadero",
+          "ownedViews": [
+            {
+              "_type": "UMLComponentView",
+              "_id": "parkView001=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkActor001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "parkName001=",
+                  "_parent": {
+                    "$ref": "parkView001="
+                  },
+                  "model": {
+                    "$ref": "parkActor001="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel001=",
+                      "_parent": {
+                        "$ref": "parkName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel002=",
+                      "_parent": {
+                        "$ref": "parkName001="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 62,
+                      "top": 132,
+                      "width": 126,
+                      "height": 18,
+                      "text": "Operador"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel003=",
+                      "_parent": {
+                        "$ref": "parkName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13,
+                      "text": "(from Arquitectura del sistema)"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel004=",
+                      "_parent": {
+                        "$ref": "parkName001="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 56,
+                  "top": 125,
+                  "width": 138,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "parkLabel001="
+                  },
+                  "nameLabel": {
+                    "$ref": "parkLabel002="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "parkLabel003="
+                  },
+                  "propertyLabel": {
+                    "$ref": "parkLabel004="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "parkAttrView001=",
+                  "_parent": {
+                    "$ref": "parkView001="
+                  },
+                  "model": {
+                    "$ref": "parkActor001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "parkOpView001=",
+                  "_parent": {
+                    "$ref": "parkView001="
+                  },
+                  "model": {
+                    "$ref": "parkActor001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 48,
+              "top": 112,
+              "width": 154,
+              "height": 58,
+              "showVisibility": false,
+              "nameCompartment": {
+                "$ref": "parkName001="
+              }
+            },
+            {
+              "_type": "UMLComponentView",
+              "_id": "parkView002=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkUi001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "parkName002=",
+                  "_parent": {
+                    "$ref": "parkView002="
+                  },
+                  "model": {
+                    "$ref": "parkUi001="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel005=",
+                      "_parent": {
+                        "$ref": "parkName002="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel006=",
+                      "_parent": {
+                        "$ref": "parkName002="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 259,
+                      "top": 132,
+                      "width": 176,
+                      "height": 18,
+                      "text": "Interfaz de usuario"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel007=",
+                      "_parent": {
+                        "$ref": "parkName002="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel008=",
+                      "_parent": {
+                        "$ref": "parkName002="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 252,
+                  "top": 125,
+                  "width": 190,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "parkLabel005="
+                  },
+                  "nameLabel": {
+                    "$ref": "parkLabel006="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "parkLabel007="
+                  },
+                  "propertyLabel": {
+                    "$ref": "parkLabel008="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "parkAttrView002=",
+                  "_parent": {
+                    "$ref": "parkView002="
+                  },
+                  "model": {
+                    "$ref": "parkUi001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "parkOpView002=",
+                  "_parent": {
+                    "$ref": "parkView002="
+                  },
+                  "model": {
+                    "$ref": "parkUi001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 244,
+              "top": 112,
+              "width": 206,
+              "height": 58,
+              "showVisibility": false,
+              "nameCompartment": {
+                "$ref": "parkName002="
+              }
+            },
+            {
+              "_type": "UMLComponentView",
+              "_id": "parkView003=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkLogic001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "parkName003=",
+                  "_parent": {
+                    "$ref": "parkView003="
+                  },
+                  "model": {
+                    "$ref": "parkLogic001="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel009=",
+                      "_parent": {
+                        "$ref": "parkName003="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel010=",
+                      "_parent": {
+                        "$ref": "parkName003="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 502,
+                      "top": 132,
+                      "width": 196,
+                      "height": 18,
+                      "text": "Lógica del parqueadero"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel011=",
+                      "_parent": {
+                        "$ref": "parkName003="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel012=",
+                      "_parent": {
+                        "$ref": "parkName003="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 495,
+                  "top": 125,
+                  "width": 210,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "parkLabel009="
+                  },
+                  "nameLabel": {
+                    "$ref": "parkLabel010="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "parkLabel011="
+                  },
+                  "propertyLabel": {
+                    "$ref": "parkLabel012="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "parkAttrView003=",
+                  "_parent": {
+                    "$ref": "parkView003="
+                  },
+                  "model": {
+                    "$ref": "parkLogic001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "parkOpView003=",
+                  "_parent": {
+                    "$ref": "parkView003="
+                  },
+                  "model": {
+                    "$ref": "parkLogic001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 488,
+              "top": 112,
+              "width": 224,
+              "height": 58,
+              "showVisibility": false,
+              "nameCompartment": {
+                "$ref": "parkName003="
+              }
+            },
+            {
+              "_type": "UMLComponentView",
+              "_id": "parkView004=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkData001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "parkName004=",
+                  "_parent": {
+                    "$ref": "parkView004="
+                  },
+                  "model": {
+                    "$ref": "parkData001="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel013=",
+                      "_parent": {
+                        "$ref": "parkName004="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel014=",
+                      "_parent": {
+                        "$ref": "parkName004="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 765,
+                      "top": 132,
+                      "width": 132,
+                      "height": 18,
+                      "text": "Capa de datos"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel015=",
+                      "_parent": {
+                        "$ref": "parkName004="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel016=",
+                      "_parent": {
+                        "$ref": "parkName004="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 758,
+                  "top": 125,
+                  "width": 146,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "parkLabel013="
+                  },
+                  "nameLabel": {
+                    "$ref": "parkLabel014="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "parkLabel015="
+                  },
+                  "propertyLabel": {
+                    "$ref": "parkLabel016="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "parkAttrView004=",
+                  "_parent": {
+                    "$ref": "parkView004="
+                  },
+                  "model": {
+                    "$ref": "parkData001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "parkOpView004=",
+                  "_parent": {
+                    "$ref": "parkView004="
+                  },
+                  "model": {
+                    "$ref": "parkData001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 750,
+              "top": 112,
+              "width": 162,
+              "height": 58,
+              "showVisibility": false,
+              "nameCompartment": {
+                "$ref": "parkName004="
+              }
+            },
+            {
+              "_type": "UMLComponentView",
+              "_id": "parkView005=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkDb001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "parkName005=",
+                  "_parent": {
+                    "$ref": "parkView005="
+                  },
+                  "model": {
+                    "$ref": "parkDb001="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel017=",
+                      "_parent": {
+                        "$ref": "parkName005="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel018=",
+                      "_parent": {
+                        "$ref": "parkName005="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 987,
+                      "top": 132,
+                      "width": 176,
+                      "height": 18,
+                      "text": "MySQL: parqueadero_db"
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel019=",
+                      "_parent": {
+                        "$ref": "parkName005="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    },
+                    {
+                      "_type": "LabelView",
+                      "_id": "parkLabel020=",
+                      "_parent": {
+                        "$ref": "parkName005="
+                      },
+                      "visible": false,
+                      "font": "Arial;13;0",
+                      "height": 13
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 980,
+                  "top": 125,
+                  "width": 190,
+                  "height": 30,
+                  "stereotypeLabel": {
+                    "$ref": "parkLabel017="
+                  },
+                  "nameLabel": {
+                    "$ref": "parkLabel018="
+                  },
+                  "namespaceLabel": {
+                    "$ref": "parkLabel019="
+                  },
+                  "propertyLabel": {
+                    "$ref": "parkLabel020="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "parkAttrView005=",
+                  "_parent": {
+                    "$ref": "parkView005="
+                  },
+                  "model": {
+                    "$ref": "parkDb001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "parkOpView005=",
+                  "_parent": {
+                    "$ref": "parkView005="
+                  },
+                  "model": {
+                    "$ref": "parkDb001="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 972,
+              "top": 112,
+              "width": 206,
+              "height": 58,
+              "showVisibility": false,
+              "nameCompartment": {
+                "$ref": "parkName005="
+              }
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "parkEdgeView001=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkEdge001="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "parkView002="
+              },
+              "tail": {
+                "$ref": "parkView001="
+              },
+              "lineStyle": 1,
+              "points": "202:141;244:141"
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "parkEdgeView002=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkEdge002="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "parkView003="
+              },
+              "tail": {
+                "$ref": "parkView002="
+              },
+              "lineStyle": 1,
+              "points": "450:141;488:141"
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "parkEdgeView003=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkEdge003="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "parkView004="
+              },
+              "tail": {
+                "$ref": "parkView003="
+              },
+              "lineStyle": 1,
+              "points": "712:141;750:141"
+            },
+            {
+              "_type": "UMLDependencyView",
+              "_id": "parkEdgeView004=",
+              "_parent": {
+                "$ref": "parkDiagram01="
+              },
+              "model": {
+                "$ref": "parkEdge004="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "parkView005="
+              },
+              "tail": {
+                "$ref": "parkView004="
+              },
+              "lineStyle": 1,
+              "points": "912:141;972:141"
+            }
+          ]
+        },
+        {
+          "_type": "UMLComponent",
+          "_id": "parkActor001=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "Operador"
+        },
+        {
+          "_type": "UMLComponent",
+          "_id": "parkUi001=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "Interfaz de usuario"
+        },
+        {
+          "_type": "UMLComponent",
+          "_id": "parkLogic001=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "Lógica del parqueadero"
+        },
+        {
+          "_type": "UMLComponent",
+          "_id": "parkData001=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "Capa de datos"
+        },
+        {
+          "_type": "UMLComponent",
+          "_id": "parkDb001=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "MySQL: parqueadero_db"
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "parkEdge001=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "usa",
+          "source": {
+            "$ref": "parkActor001="
+          },
+          "target": {
+            "$ref": "parkUi001="
+          }
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "parkEdge002=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "solicita operaciones",
+          "source": {
+            "$ref": "parkUi001="
+          },
+          "target": {
+            "$ref": "parkLogic001="
+          }
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "parkEdge003=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "consulta y actualiza",
+          "source": {
+            "$ref": "parkLogic001="
+          },
+          "target": {
+            "$ref": "parkData001="
+          }
+        },
+        {
+          "_type": "UMLDependency",
+          "_id": "parkEdge004=",
+          "_parent": {
+            "$ref": "parkModel001="
+          },
+          "name": "ejecuta SQL",
+          "source": {
+            "$ref": "parkData001="
+          },
+          "target": {
+            "$ref": "parkDb001="
+          }
+        }
+      ]
+    }
+  ]
+}

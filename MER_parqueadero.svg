@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+  <defs>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;fill:#18304a}.title{font-size:30px;font-weight:700}.subtitle{font-size:15px;fill:#6c7c90}.entity{fill:#fff;stroke:#bdcbd8;stroke-width:2}.header{fill:#eaf5f0}.entityname{font-size:19px;font-weight:700}.attr{font-size:15px}.rel{stroke:#73879a;stroke-width:2;fill:none}.relname{font-size:13px;font-weight:600;fill:#41566d}.card{font-size:13px;font-weight:700;fill:#16845b}.note{font-size:13px;fill:#697a8d}
+    </style>
+  </defs>
+  <rect width="1440" height="960" fill="#f5f8fb"/>
+  <text x="64" y="70" class="title">MER — Sistema de parqueadero</text>
+  <text x="64" y="101" class="subtitle">Modelo entidad-relación conceptual · Entidades, atributos y cardinalidades</text>
+
+  <path d="M300 300 L300 387" class="rel"/>
+  <text x="311" y="336" class="relname">clasifica</text>
+  <text x="278" y="322" class="card">1</text>
+  <text x="278" y="377" class="card">N</text>
+
+  <path d="M425 480 L545 480" class="rel"/>
+  <text x="447" y="465" class="relname">registra estancias</text>
+  <text x="431" y="469" class="card">1</text>
+  <text x="523" y="469" class="card">N</text>
+
+  <path d="M1020 450 L890 450" class="rel"/>
+  <text x="917" y="435" class="relname">registra ingreso</text>
+  <text x="1000" y="439" class="card">1</text>
+  <text x="895" y="439" class="card">N</text>
+
+  <path d="M1020 590 L890 590" class="rel"/>
+  <text x="918" y="575" class="relname">registra salida</text>
+  <text x="1000" y="579" class="card">0..1</text>
+  <text x="895" y="579" class="card">N</text>
+
+  <g>
+    <rect x="175" y="160" width="250" height="140" rx="12" class="entity"/>
+    <path d="M187 160h226a12 12 0 0 1 12 12v42H175v-42a12 12 0 0 1 12-12z" class="header"/>
+    <text x="300" y="195" text-anchor="middle" class="entityname">TIPO DE VEHÍCULO</text>
+    <text x="198" y="243" class="attr"><tspan font-weight="700">id_tipo</tspan> — identificador</text>
+    <text x="198" y="270" class="attr">nombre, tarifa por hora</text>
+  </g>
+  <g>
+    <rect x="175" y="387" width="250" height="186" rx="12" class="entity"/>
+    <path d="M187 387h226a12 12 0 0 1 12 12v42H175v-42a12 12 0 0 1 12-12z" class="header"/>
+    <text x="300" y="422" text-anchor="middle" class="entityname">VEHÍCULO</text>
+    <text x="198" y="470" class="attr"><tspan font-weight="700">placa</tspan> — identificador</text>
+    <text x="198" y="497" class="attr">pertenece a un tipo</text>
+    <text x="198" y="533" class="note">Puede tener varias estancias</text>
+  </g>
+  <g>
+    <rect x="545" y="350" width="345" height="300" rx="12" class="entity"/>
+    <path d="M557 350h321a12 12 0 0 1 12 12v42H545v-42a12 12 0 0 1 12-12z" class="header"/>
+    <text x="717" y="385" text-anchor="middle" class="entityname">REGISTRO DE ESTANCIA</text>
+    <text x="570" y="435" class="attr"><tspan font-weight="700">id_registro</tspan> — identificador</text>
+    <text x="570" y="464" class="attr">fecha y hora de entrada</text>
+    <text x="570" y="493" class="attr">fecha y hora de salida (opcional)</text>
+    <text x="570" y="522" class="attr">total a pagar, estado</text>
+    <line x1="570" y1="542" x2="865" y2="542" stroke="#e4ebf0"/>
+    <text x="570" y="571" class="note">Para un vehículo y un usuario de ingreso</text>
+    <text x="570" y="596" class="note">La salida puede quedar sin registrar</text>
+    <text x="570" y="621" class="note">hasta finalizar la estancia</text>
+  </g>
+  <g>
+    <rect x="1020" y="350" width="250" height="140" rx="12" class="entity"/>
+    <path d="M1032 350h226a12 12 0 0 1 12 12v42h-250v-42a12 12 0 0 1 12-12z" class="header"/>
+    <text x="1145" y="385" text-anchor="middle" class="entityname">USUARIO</text>
+    <text x="1043" y="433" class="attr"><tspan font-weight="700">id_usuario</tspan> — identificador</text>
+    <text x="1043" y="461" class="attr">nombre, rol</text>
+  </g>
+  <g>
+    <rect x="1020" y="545" width="250" height="90" rx="12" fill="#fff" stroke="#d9e2ea" stroke-dasharray="6 5"/>
+    <text x="1145" y="580" text-anchor="middle" class="relname">El usuario que finaliza</text>
+    <text x="1145" y="603" text-anchor="middle" class="note">es opcional por estancia</text>
+  </g>
+  <text x="64" y="903" class="note">N = muchos. El usuario de salida es opcional; un usuario puede finalizar varias estancias.</text>
+  <text x="64" y="927" class="note">El MER no fija una regla de cobro ni limita a un solo registro activo por vehículo.</text>
+</svg>

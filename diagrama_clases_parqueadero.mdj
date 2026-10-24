@@ -1,0 +1,1127 @@
+{
+  "_type": "Project",
+  "_id": "classProject001=",
+  "name": "Diagrama de clases - Parqueadero",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "classModel001=",
+      "_parent": {
+        "$ref": "classProject001="
+      },
+      "name": "Modelo de clases",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "classDiagram001=",
+          "_parent": {
+            "$ref": "classModel001="
+          },
+          "name": "Diagrama de clases del parqueadero",
+          "ownedViews": [
+            {
+              "_type": "UMLClassView",
+              "_id": "classViewTipo=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classTipo="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "classNameTipo=",
+                  "_parent": {
+                    "$ref": "classViewTipo="
+                  },
+                  "model": {
+                    "$ref": "classTipo="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "classTipoLabel=",
+                      "_parent": {
+                        "$ref": "classNameTipo="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 182,
+                      "top": 160,
+                      "width": 150,
+                      "height": 18,
+                      "text": "TipoVehiculo"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 175,
+                  "top": 153,
+                  "width": 164,
+                  "height": 30,
+                  "nameLabel": {
+                    "$ref": "classTipoLabel="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "classTipoAttrsView=",
+                  "_parent": {
+                    "$ref": "classViewTipo="
+                  },
+                  "model": {
+                    "$ref": "classTipo="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classTipoAttrView1=",
+                      "_parent": {
+                        "$ref": "classTipoAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classTipoAttr1="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 5,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ id_tipo: int {PK}"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classTipoAttrView2=",
+                      "_parent": {
+                        "$ref": "classTipoAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classTipoAttr2="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 25,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ nombre_tipo: varchar(50) {unique}"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classTipoAttrView3=",
+                      "_parent": {
+                        "$ref": "classTipoAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classTipoAttr3="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 45,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ tarifa_por_hora: decimal(10,2)"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 175,
+                  "top": 183,
+                  "width": 304,
+                  "height": 72
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "classTipoOps=",
+                  "_parent": {
+                    "$ref": "classViewTipo="
+                  },
+                  "model": {
+                    "$ref": "classTipo="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 165,
+              "top": 145,
+              "width": 324,
+              "height": 120,
+              "nameCompartment": {
+                "$ref": "classNameTipo="
+              },
+              "attributeCompartment": {
+                "$ref": "classTipoAttrsView="
+              },
+              "operationCompartment": {
+                "$ref": "classTipoOps="
+              },
+              "suppressAttributes": false,
+              "suppressOperations": true
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "classViewVehiculo=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classVehiculo="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "classNameVehiculo=",
+                  "_parent": {
+                    "$ref": "classViewVehiculo="
+                  },
+                  "model": {
+                    "$ref": "classVehiculo="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "classVehiculoLabel=",
+                      "_parent": {
+                        "$ref": "classNameVehiculo="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 615,
+                      "top": 160,
+                      "width": 150,
+                      "height": 18,
+                      "text": "Vehiculo"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 608,
+                  "top": 153,
+                  "width": 164,
+                  "height": 30,
+                  "nameLabel": {
+                    "$ref": "classVehiculoLabel="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "classVehiculoAttrsView=",
+                  "_parent": {
+                    "$ref": "classViewVehiculo="
+                  },
+                  "model": {
+                    "$ref": "classVehiculo="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classVehiculoAttrView1=",
+                      "_parent": {
+                        "$ref": "classVehiculoAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classVehiculoAttr1="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 5,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ placa: varchar(10) {PK}"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classVehiculoAttrView2=",
+                      "_parent": {
+                        "$ref": "classVehiculoAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classVehiculoAttr2="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 25,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ id_tipo: int {FK}"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 608,
+                  "top": 183,
+                  "width": 304,
+                  "height": 52
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "classVehiculoOps=",
+                  "_parent": {
+                    "$ref": "classViewVehiculo="
+                  },
+                  "model": {
+                    "$ref": "classVehiculo="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 598,
+              "top": 145,
+              "width": 324,
+              "height": 100,
+              "nameCompartment": {
+                "$ref": "classNameVehiculo="
+              },
+              "attributeCompartment": {
+                "$ref": "classVehiculoAttrsView="
+              },
+              "operationCompartment": {
+                "$ref": "classVehiculoOps="
+              },
+              "suppressAttributes": false,
+              "suppressOperations": true
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "classViewRegistro=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classRegistro="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "classNameRegistro=",
+                  "_parent": {
+                    "$ref": "classViewRegistro="
+                  },
+                  "model": {
+                    "$ref": "classRegistro="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "classRegistroLabel=",
+                      "_parent": {
+                        "$ref": "classNameRegistro="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 1007,
+                      "top": 375,
+                      "width": 200,
+                      "height": 18,
+                      "text": "RegistroEstancia"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 1000,
+                  "top": 368,
+                  "width": 214,
+                  "height": 30,
+                  "nameLabel": {
+                    "$ref": "classRegistroLabel="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "classRegistroAttrsView=",
+                  "_parent": {
+                    "$ref": "classViewRegistro="
+                  },
+                  "model": {
+                    "$ref": "classRegistro="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView1=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr1="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 5,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ id_registro: int {PK}"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView2=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr2="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 25,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ fecha_hora_entrada: datetime"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView3=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr3="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 45,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ fecha_hora_salida: datetime [0..1]"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView4=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr4="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 65,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ total_pagar: decimal(10,2)"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView5=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr5="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 85,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ estado: Activo | Finalizado"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView6=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr6="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 105,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ placa: varchar(10) {FK}"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView7=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr7="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 125,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ id_usuario_entrada: int {FK}"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classRegistroAttrView8=",
+                      "_parent": {
+                        "$ref": "classRegistroAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classRegistroAttr8="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 145,
+                      "width": 350,
+                      "height": 18,
+                      "text": "+ id_usuario_salida: int [0..1] {FK}"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 1000,
+                  "top": 398,
+                  "width": 374,
+                  "height": 172
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "classRegistroOps=",
+                  "_parent": {
+                    "$ref": "classViewRegistro="
+                  },
+                  "model": {
+                    "$ref": "classRegistro="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 990,
+              "top": 360,
+              "width": 394,
+              "height": 220,
+              "nameCompartment": {
+                "$ref": "classNameRegistro="
+              },
+              "attributeCompartment": {
+                "$ref": "classRegistroAttrsView="
+              },
+              "operationCompartment": {
+                "$ref": "classRegistroOps="
+              },
+              "suppressAttributes": false,
+              "suppressOperations": true
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "classViewUsuario=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classUsuario="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "classNameUsuario=",
+                  "_parent": {
+                    "$ref": "classViewUsuario="
+                  },
+                  "model": {
+                    "$ref": "classUsuario="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "classUsuarioLabel=",
+                      "_parent": {
+                        "$ref": "classNameUsuario="
+                      },
+                      "font": "Arial;13;1",
+                      "left": 235,
+                      "top": 650,
+                      "width": 150,
+                      "height": 18,
+                      "text": "Usuario"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 228,
+                  "top": 643,
+                  "width": 164,
+                  "height": 30,
+                  "nameLabel": {
+                    "$ref": "classUsuarioLabel="
+                  }
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "classUsuarioAttrsView=",
+                  "_parent": {
+                    "$ref": "classViewUsuario="
+                  },
+                  "model": {
+                    "$ref": "classUsuario="
+                  },
+                  "subViews": [
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classUsuarioAttrView1=",
+                      "_parent": {
+                        "$ref": "classUsuarioAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classUsuarioAttr1="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 5,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ id_usuario: int {PK}"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classUsuarioAttrView2=",
+                      "_parent": {
+                        "$ref": "classUsuarioAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classUsuarioAttr2="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 25,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ nombre: varchar(100)"
+                    },
+                    {
+                      "_type": "UMLAttributeView",
+                      "_id": "classUsuarioAttrView3=",
+                      "_parent": {
+                        "$ref": "classUsuarioAttrsView="
+                      },
+                      "model": {
+                        "$ref": "classUsuarioAttr3="
+                      },
+                      "font": "Arial;13;0",
+                      "left": 8,
+                      "top": 45,
+                      "width": 280,
+                      "height": 18,
+                      "text": "+ rol: varchar(50)"
+                    }
+                  ],
+                  "font": "Arial;13;0",
+                  "left": 228,
+                  "top": 673,
+                  "width": 304,
+                  "height": 72
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "classUsuarioOps=",
+                  "_parent": {
+                    "$ref": "classViewUsuario="
+                  },
+                  "model": {
+                    "$ref": "classUsuario="
+                  },
+                  "visible": false,
+                  "font": "Arial;13;0",
+                  "width": 10,
+                  "height": 10
+                }
+              ],
+              "font": "Arial;13;0",
+              "left": 218,
+              "top": 635,
+              "width": 324,
+              "height": 120,
+              "nameCompartment": {
+                "$ref": "classNameUsuario="
+              },
+              "attributeCompartment": {
+                "$ref": "classUsuarioAttrsView="
+              },
+              "operationCompartment": {
+                "$ref": "classUsuarioOps="
+              },
+              "suppressAttributes": false,
+              "suppressOperations": true
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "classAssocViewTipoVehiculo=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classAssocTipoVehiculo="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "classViewVehiculo="
+              },
+              "tail": {
+                "$ref": "classViewTipo="
+              },
+              "points": "489:205;598:205"
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "classAssocViewVehiculoEstancia=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classAssocVehiculoEstancia="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "classViewRegistro="
+              },
+              "tail": {
+                "$ref": "classViewVehiculo="
+              },
+              "points": "922:220;990:400"
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "classAssocViewUsuarioEntrada=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classAssocUsuarioEntrada="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "classViewRegistro="
+              },
+              "tail": {
+                "$ref": "classViewUsuario="
+              },
+              "points": "542:685;790:685;950:610;1050:580"
+            },
+            {
+              "_type": "UMLAssociationView",
+              "_id": "classAssocViewUsuarioSalida=",
+              "_parent": {
+                "$ref": "classDiagram001="
+              },
+              "model": {
+                "$ref": "classAssocUsuarioSalida="
+              },
+              "subViews": [],
+              "font": "Arial;13;0",
+              "head": {
+                "$ref": "classViewRegistro="
+              },
+              "tail": {
+                "$ref": "classViewUsuario="
+              },
+              "points": "542:722;760:780;920:710;1130:580"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "classTipo=",
+          "_parent": {
+            "$ref": "classModel001="
+          },
+          "name": "TipoVehiculo",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "classTipoAttr1=",
+              "_parent": {
+                "$ref": "classTipo="
+              },
+              "name": "id_tipo",
+              "type": "int",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classTipoAttr2=",
+              "_parent": {
+                "$ref": "classTipo="
+              },
+              "name": "nombre_tipo",
+              "type": "varchar(50)",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classTipoAttr3=",
+              "_parent": {
+                "$ref": "classTipo="
+              },
+              "name": "tarifa_por_hora",
+              "type": "decimal(10,2)",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            }
+          ],
+          "visibility": "public",
+          "isAbstract": false,
+          "isFinalSpecialization": false,
+          "isLeaf": false,
+          "isActive": false
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "classVehiculo=",
+          "_parent": {
+            "$ref": "classModel001="
+          },
+          "name": "Vehiculo",
+          "ownedElements": [
+            {
+              "_type": "UMLAssociation",
+              "_id": "classAssocTipoVehiculo=",
+              "_parent": {
+                "$ref": "classVehiculo="
+              },
+              "name": "clasifica",
+              "end1": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocTipoVehiculoEnd1=",
+                "_parent": {
+                  "$ref": "classAssocTipoVehiculo="
+                },
+                "reference": {
+                  "$ref": "classVehiculo="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "0..*"
+              },
+              "end2": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocTipoVehiculoEnd2=",
+                "_parent": {
+                  "$ref": "classAssocTipoVehiculo="
+                },
+                "reference": {
+                  "$ref": "classTipo="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "1"
+              }
+            },
+            {
+              "_type": "UMLAssociation",
+              "_id": "classAssocVehiculoEstancia=",
+              "_parent": {
+                "$ref": "classVehiculo="
+              },
+              "name": "registra",
+              "end1": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocVehiculoEstanciaEnd1=",
+                "_parent": {
+                  "$ref": "classAssocVehiculoEstancia="
+                },
+                "reference": {
+                  "$ref": "classVehiculo="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "1"
+              },
+              "end2": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocVehiculoEstanciaEnd2=",
+                "_parent": {
+                  "$ref": "classAssocVehiculoEstancia="
+                },
+                "reference": {
+                  "$ref": "classRegistro="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "0..*"
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "classVehiculoAttr1=",
+              "_parent": {
+                "$ref": "classVehiculo="
+              },
+              "name": "placa",
+              "type": "varchar(10)",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classVehiculoAttr2=",
+              "_parent": {
+                "$ref": "classVehiculo="
+              },
+              "name": "id_tipo",
+              "type": "int",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            }
+          ],
+          "visibility": "public",
+          "isAbstract": false,
+          "isFinalSpecialization": false,
+          "isLeaf": false,
+          "isActive": false
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "classRegistro=",
+          "_parent": {
+            "$ref": "classModel001="
+          },
+          "name": "RegistroEstancia",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr1=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "id_registro",
+              "type": "int",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr2=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "fecha_hora_entrada",
+              "type": "datetime",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr3=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "fecha_hora_salida",
+              "type": "datetime",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr4=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "total_pagar",
+              "type": "decimal(10,2)",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr5=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "estado",
+              "type": "enum('Activo','Finalizado')",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr6=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "placa",
+              "type": "varchar(10)",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr7=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "id_usuario_entrada",
+              "type": "int",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classRegistroAttr8=",
+              "_parent": {
+                "$ref": "classRegistro="
+              },
+              "name": "id_usuario_salida",
+              "type": "int",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            }
+          ],
+          "visibility": "public",
+          "isAbstract": false,
+          "isFinalSpecialization": false,
+          "isLeaf": false,
+          "isActive": false
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "classUsuario=",
+          "_parent": {
+            "$ref": "classModel001="
+          },
+          "name": "Usuario",
+          "ownedElements": [
+            {
+              "_type": "UMLAssociation",
+              "_id": "classAssocUsuarioEntrada=",
+              "_parent": {
+                "$ref": "classUsuario="
+              },
+              "name": "registra ingreso",
+              "end1": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocUsuarioEntradaEnd1=",
+                "_parent": {
+                  "$ref": "classAssocUsuarioEntrada="
+                },
+                "reference": {
+                  "$ref": "classUsuario="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "1"
+              },
+              "end2": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocUsuarioEntradaEnd2=",
+                "_parent": {
+                  "$ref": "classAssocUsuarioEntrada="
+                },
+                "reference": {
+                  "$ref": "classRegistro="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "0..*"
+              }
+            },
+            {
+              "_type": "UMLAssociation",
+              "_id": "classAssocUsuarioSalida=",
+              "_parent": {
+                "$ref": "classUsuario="
+              },
+              "name": "registra salida",
+              "end1": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocUsuarioSalidaEnd1=",
+                "_parent": {
+                  "$ref": "classAssocUsuarioSalida="
+                },
+                "reference": {
+                  "$ref": "classUsuario="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "0..1"
+              },
+              "end2": {
+                "_type": "UMLAssociationEnd",
+                "_id": "classAssocUsuarioSalidaEnd2=",
+                "_parent": {
+                  "$ref": "classAssocUsuarioSalida="
+                },
+                "reference": {
+                  "$ref": "classRegistro="
+                },
+                "visibility": "public",
+                "navigable": true,
+                "aggregation": "none",
+                "multiplicity": "0..*"
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "classUsuarioAttr1=",
+              "_parent": {
+                "$ref": "classUsuario="
+              },
+              "name": "id_usuario",
+              "type": "int",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classUsuarioAttr2=",
+              "_parent": {
+                "$ref": "classUsuario="
+              },
+              "name": "nombre",
+              "type": "varchar(100)",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "classUsuarioAttr3=",
+              "_parent": {
+                "$ref": "classUsuario="
+              },
+              "name": "rol",
+              "type": "varchar(50)",
+              "visibility": "public",
+              "isStatic": false,
+              "isReadOnly": false
+            }
+          ],
+          "visibility": "public",
+          "isAbstract": false,
+          "isFinalSpecialization": false,
+          "isLeaf": false,
+          "isActive": false
+        }
+      ]
+    }
+  ]
+}

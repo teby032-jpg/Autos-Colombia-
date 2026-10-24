@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960">
+  <defs>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;fill:#172b45}
+      .muted{fill:#75849a}.small{font-size:13px}.body{font-size:15px}.title{font-size:27px;font-weight:700}.section{font-size:18px;font-weight:700}.label{font-size:12px;font-weight:600;letter-spacing:.5px}
+    </style>
+  </defs>
+  <rect width="1440" height="960" fill="#f4f7fa"/>
+  <rect width="248" height="960" fill="#14263e"/>
+  <circle cx="39" cy="43" r="18" fill="#38bd89"/><text x="39" y="49" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">P</text>
+  <text x="68" y="41" font-size="16" font-weight="700" fill="#ffffff">PARQUEO</text><text x="68" y="59" font-size="11" fill="#9eafc2">CONTROL</text>
+  <text x="26" y="111" class="label" fill="#8092a8">MENÚ PRINCIPAL</text>
+  <text x="38" y="158" class="body" fill="#b1bfd0">⌂</text><text x="60" y="158" class="body" fill="#b1bfd0">Resumen</text>
+  <text x="38" y="211" class="body" fill="#b1bfd0">＋</text><text x="60" y="211" class="body" fill="#b1bfd0">Registrar ingreso</text>
+  <rect x="16" y="234" width="216" height="46" rx="10" fill="#25405d"/><text x="38" y="264" class="body" fill="#38bd89">↗</text><text x="60" y="264" class="body" font-weight="600" fill="#ffffff">Registrar salida</text>
+  <line x1="24" y1="298" x2="224" y2="298" stroke="#30435b"/><text x="26" y="329" class="label" fill="#8092a8">SISTEMA</text>
+  <text x="60" y="373" class="body" fill="#b1bfd0">Configuración</text>
+  <rect x="16" y="864" width="216" height="72" rx="12" fill="#1b324d"/><circle cx="47" cy="900" r="17" fill="#d9f4ea"/>
+  <text x="47" y="905" text-anchor="middle" font-size="12" font-weight="700" fill="#16845b">CP</text><text x="75" y="896" class="small" font-weight="700" fill="#ffffff">Carlos Pérez</text><text x="75" y="916" font-size="12" fill="#9eafc2">Operador</text>
+  <rect x="248" width="1192" height="76" fill="#ffffff"/><line x1="248" y1="75.5" x2="1440" y2="75.5" stroke="#e7ecf1"/>
+  <text x="282" y="47" class="body muted">Sistema de parqueadero</text><circle cx="1363" cy="38" r="18" fill="#f0f4f7"/><text x="1363" y="43" text-anchor="middle" font-size="15">?</text>
+  <circle cx="1407" cy="38" r="18" fill="#d9f4ea"/><text x="1407" y="43" text-anchor="middle" font-size="12" font-weight="700" fill="#16845b">CP</text>
+  <text x="282" y="133" class="title">Registrar salida</text>
+  <text x="282" y="161" class="body muted">Busca la estancia activa, revisa el resumen y finaliza el registro.</text>
+  <text x="282" y="209" class="small muted">Resumen</text><text x="342" y="209" class="small muted">/</text><text x="358" y="209" class="small" font-weight="600">Registrar salida</text>
+  <rect x="282" y="239" width="1114" height="120" rx="14" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="312" y="276" class="label">BUSCAR VEHÍCULO ACTIVO</text>
+  <rect x="312" y="290" width="842" height="48" rx="8" fill="#ffffff" stroke="#cfd8e2"/>
+  <text x="332" y="320" font-size="16" font-weight="700">ABC123</text><text x="1118" y="320" class="small muted">CO</text>
+  <rect x="1170" y="290" width="194" height="48" rx="8" fill="#14263e"/><text x="1267" y="320" text-anchor="middle" class="body" font-weight="700" fill="#ffffff">Buscar placa</text>
+  <rect x="282" y="383" width="694" height="408" rx="14" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="312" y="426" class="section">Detalle de la estancia</text>
+  <rect x="312" y="448" width="634" height="72" rx="10" fill="#f6f9fb"/>
+  <rect x="328" y="462" width="45" height="43" rx="8" fill="#e7f6ef"/><text x="350" y="489" text-anchor="middle" font-size="20" fill="#16845b">▣</text>
+  <text x="390" y="478" class="label muted">PLACA</text><text x="390" y="502" class="body" font-weight="700">ABC123</text>
+  <rect x="790" y="466" width="124" height="28" rx="14" fill="#e7f6ef"/><text x="852" y="485" text-anchor="middle" font-size="12" font-weight="600" fill="#16845b">Estancia activa</text>
+  <text x="312" y="560" class="small muted">Tipo de vehículo</text><text x="604" y="560" class="small" font-weight="600">Automóvil</text>
+  <line x1="312" y1="578" x2="946" y2="578" stroke="#edf0f3"/>
+  <text x="312" y="612" class="small muted">Fecha y hora de ingreso</text><text x="604" y="612" class="small" font-weight="600">24/10/2026, 02:47 p. m.</text>
+  <line x1="312" y1="630" x2="946" y2="630" stroke="#edf0f3"/>
+  <text x="312" y="664" class="small muted">Operador de ingreso</text><text x="604" y="664" class="small" font-weight="600">Carlos Pérez</text>
+  <line x1="312" y1="682" x2="946" y2="682" stroke="#edf0f3"/>
+  <text x="312" y="716" class="small muted">Tarifa por hora</text><text x="604" y="716" class="small" font-weight="600">$4.000 COP</text>
+  <text x="312" y="760" class="small muted">La hora de salida se guardará al confirmar.</text>
+  <rect x="997" y="383" width="399" height="408" rx="14" fill="#ffffff" stroke="#e5ebf0"/>
+  <text x="1027" y="426" class="section">Resumen de cobro</text>
+  <text x="1027" y="471" class="small muted">Tiempo de estancia</text><text x="1364" y="471" text-anchor="end" class="body" font-weight="600">Por calcular</text>
+  <line x1="1027" y1="493" x2="1366" y2="493" stroke="#edf0f3"/>
+  <text x="1027" y="530" class="small muted">Tarifa por hora</text><text x="1364" y="530" text-anchor="end" class="body" font-weight="600">$4.000 COP</text>
+  <rect x="1027" y="555" width="339" height="96" rx="10" fill="#f3f8f5"/>
+  <text x="1047" y="587" class="small muted">Total a pagar</text><text x="1047" y="626" font-size="25" font-weight="700">— COP</text>
+  <text x="1027" y="683" class="small muted">El total se calcula con la tarifa</text><text x="1027" y="703" class="small muted">y la regla de cobro configurada.</text>
+  <rect x="1027" y="724" width="339" height="46" rx="8" fill="#16845b"/><text x="1196" y="753" text-anchor="middle" class="body" font-weight="700" fill="#ffffff">Confirmar salida</text>
+  <rect x="1170" y="821" width="194" height="46" rx="8" fill="#ffffff" stroke="#cfd8e2"/><text x="1267" y="849" text-anchor="middle" class="body" font-weight="600">Cancelar</text>
+  <text x="282" y="930" font-size="12" class="muted">Parqueo Control  ·  Datos de ejemplo para el mockup</text>
+</svg>
